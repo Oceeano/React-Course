@@ -40,3 +40,42 @@ ul li {
     transform: rotate(360deg);
   }
 }
+
+.img-logo {
+  text-align: center;
+  vertical-align: super;
+
+  width: 10%;
+
+  padding: 3%;
+}
+header {
+  text-align: center;
+}
+ .app-wrapper {
+   display: grid;
+
+   grid-template-areas:  
+   "h h"
+   "n c";
+
+
+
+   grid-template-rows: 60px 1fr;
+   grid-template-columns: 2fr 10fr;
+   grid-gap: 10px; 
+ }
+ .header {
+   grid-area: h;
+   background-color: aquamarine;
+ }
+
+ .nav {
+   grid-area: n;
+   background-color: azure;
+ }
+
+ .content {
+   grid-area: c;
+   background-color: chartreuse;
+ }
