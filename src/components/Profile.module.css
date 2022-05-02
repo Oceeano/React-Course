@@ -1,0 +1,27 @@
+.content {
+    grid-area: c;
+    background-color: rgb(220, 225, 215);
+    /* color: aqua; */
+  }
+  
+  
+  
+  .content__image {
+  
+    width: auto;
+  }
+  
+  .content__img-ava {
+    margin: 10px auto;
+    width: 100px;
+    text-align: start;
+  }
+  
+  .content div {
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .item {
+      color: aquamarine
+  }
