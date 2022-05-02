@@ -14,7 +14,7 @@ ul li {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  } 
+  }
 }
 
 .App-header {
@@ -36,46 +36,69 @@ ul li {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.img-logo {
-  text-align: center;
-  vertical-align: super;
+.header__img-logo {
 
-  width: 10%;
+  width: 150px;
+  vertical-align: top;
+  margin-top: -2%;
 
-  padding: 3%;
 }
-header {
-  text-align: center;
+
+
+.app-wrapper {
+  margin: 0 auto;
+  display: grid;
+  width: 1200px;
+
+  grid-template-areas:
+    "h h"
+    "n c";
+
+
+
+  grid-template-rows: 200px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
 }
- .app-wrapper {
-   display: grid;
-
-   grid-template-areas:  
-   "h h"
-   "n c";
 
 
 
-   grid-template-rows: 60px 1fr;
-   grid-template-columns: 2fr 10fr;
-   grid-gap: 10px; 
- }
- .header {
-   grid-area: h;
-   background-color: aquamarine;
- }
+.nav {
+  grid-area: n;
+  background-color: beige;
+}
 
- .nav {
-   grid-area: n;
-   background-color: azure;
- }
+.content {
+  grid-area: c;
+  background-color: rgb(220, 225, 215);
+}
 
- .content {
-   grid-area: c;
-   background-color: chartreuse;
- }
+.header {
+  grid-area: h;
+  background-color: rgb(84, 86, 85);
+  text-align: center;
+  padding: 50px;
+  margin: 1 auto;
+}
+
+.content__image {
+
+  width: auto;
+}
+
+.content__img-ava {
+  margin: 10px auto;
+  width: 100px;
+  text-align: start;
+}
+
+.content div {
+  margin-left: 20px;
+  text-align: left;
+}
