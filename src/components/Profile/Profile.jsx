@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Profile.module.css';
+import MyPosts from './MyPosts/MyPosts'
 
 const Profile = () => {
   return <div className={s.content}>
@@ -10,21 +11,7 @@ const Profile = () => {
       <img className={s.content__img_ava} src='https://64.media.tumblr.com/50704a7181f23927454dfb29a12810ce/tumblr_n1aqd2wJbp1qz5ytzo1_640.gifv' />
       + description
     </div>
-    <div>
-      My posts
-
-      <div>
-        New post
-      </div>
-      <div className={s.posts}>
-        <div className={s.item}>
-          Post 1
-        </div>
-        <div className={s.item}>
-          Post 2
-        </div>
-      </div>
-    </div>
+    <MyPosts />
   </div>
     ;
 }
