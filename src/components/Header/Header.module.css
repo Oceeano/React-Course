@@ -21,7 +21,7 @@
 
 .header_background {
 
-  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmir-s3-cdn-cf.behance.net%2Fproject_modules%2F1400%2F854cb353445239.56090f79d8327.jpg&f=1&nofb=1);
+  /* background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmir-s3-cdn-cf.behance.net%2Fproject_modules%2F1400%2F854cb353445239.56090f79d8327.jpg&f=1&nofb=1); */
 
   width: 1fr;
   height: 100%;
@@ -36,6 +36,7 @@
   width: 150px;
   padding-top: 25px;
   vertical-align: middle;
+  animation: spin infinite 20s linear;
 }
 
 

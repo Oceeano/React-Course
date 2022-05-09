@@ -13,7 +13,7 @@ ul li {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /* animation: App-logo-spin infinite 20s linear; */
   }
 }
 
@@ -51,9 +51,15 @@ ul li {
   grid-template-rows: 200px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
+  position: relative;
+
 }
 
+.wallpaper {
+  width: 100%;
+  position: absolute;
+  filter: blur(3px);
+  overflow-y: auto;
 
 
-
-
+}

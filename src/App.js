@@ -1,16 +1,20 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
+import Dialogs from "./components/Dialogs/Dialogs";
 import Profile from './components/Profile/Profile';
 
 const App = () => {
-  return (
+  return ( <div>
+    <img className='wallpaper' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.grunge.com%2Fimg%2Fgallery%2Fhow-many-black-belts-does-steven-seagal-really-have-upgrade%2Fsteven-seagal-has-surprisingly-many-black-belts-1582743899.jpg&f=1&nofb=1'></img>
     <div className='app-wrapper'>
+
       <Header />
       <Navbar />
-      <Profile />
+     {/* <Profile />*/}
+     <Dialogs />
     </div>
-
+    </div>
   );
 }
 

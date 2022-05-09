@@ -1,13 +1,29 @@
+div {
+  padding: 30%;
+  text-align: end;
+}
+
+.MyPosts_header {
+  padding: 30%;
+  text-align: end;
+}
+
+
+
 .content {
   grid-area: c;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 700px;
   background-color: rgb(220, 225, 215);
-  padding: 0%;
-  margin: 0%;
+  /* padding: 0%;
+  margin: 0%; */
 
   /* color: aqua; */
+}
+
+.posts {
+   margin-bottom: 200px;
 }
 
 .content__image {
@@ -30,7 +46,8 @@
 }
 
 .item {
-  color: aquamarine
+  color: rgb(28, 30, 29);
+  margin-bottom: 200px;
 }
 
 .content_wall {
