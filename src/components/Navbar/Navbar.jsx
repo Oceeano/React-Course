@@ -8,17 +8,17 @@ import s from './Navbar.module.css';
 const Navbar = () => {
     return <nav className={s.nav}>
         <div className={s.item}>
-            <a href="#S">Profile</a>
+            <a href="/profile">Profile</a>
         </div>
         <div className={s.item}>
-            <a href="#S">Messages</a>
+            <a href="/dialogs">Dialogs</a>
         </div><div className={s.item}>
-            <a href="#S">News</a>
+            <a href="/news">News</a>
         </div><div className={s.item}>
-            <a href="#S">Music</a>
+            <a href="/music">Music</a>
         </div>
         <div className={s.item}>
-            <a href="#S">Settings</a>
+            <a href="/settings">Settings</a>
         </div>
     </nav >
 }
