@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Dialogs from "./components/Dialogs/Dialogs";
 import Profile from './components/Profile/Profile';
 import {BrowserRouter,Routes, Route} from "react-router-dom"
+import News from "./components/News/News";
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                       <Routes>
                         <Route path='/dialogs' element={<Dialogs />}/>
                         <Route path='/profile' element={<Profile />}/>
+                          <Route path='/news' element={<News />}/>
                       </Routes>
                       </div>
                 </div>

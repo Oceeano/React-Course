@@ -23,7 +23,7 @@ ul li {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes header__img {
   from {
     transform: rotate(0deg);
   }

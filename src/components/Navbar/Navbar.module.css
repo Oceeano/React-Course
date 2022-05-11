@@ -9,8 +9,14 @@
 
   .item {
       color: rgb(131, 226, 255);
+      text-decoration: none;
   }
 
-.item.active {
+.item a.activeLink {
     color: gold;
+
+}
+.active {
+    color: gold;
+    text-decoration: none;
 }
