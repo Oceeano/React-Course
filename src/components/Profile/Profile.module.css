@@ -17,22 +17,11 @@
 
 
 
-.content__img_ava {
-  margin: 10px auto;
-  width: 15%;
-  text-align: start;
-}
 
-.content div {
-  margin-left: 20px;
-  text-align: left;
-  
-}
 
-.item {
-  
-  color: aquamarine
-}
+
+
+
 
 .content_wall {
  text-align: left;
@@ -40,17 +29,19 @@
   height: 1fr;
   overflow: hidden;
   padding-left: 0;
-  margin-left: 0;
-  border-radius: 10px;
+/*  margin-left: 0;*/
+    margin: 0 auto;
+    padding: 0;
   
 }
 
 .content__image {
-
+    margin: 0 auto;
     /* width: 100%; */
     text-align: start;
     vertical-align: center;
     overflow: hidden;
+    border-radius: 10px;
     /*width: 1200px;*/
 
 }

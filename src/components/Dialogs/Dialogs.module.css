@@ -4,8 +4,8 @@ display: grid;
     background-color: bisque;
     padding: 10px;
     border-radius: 10px;
+    margin-top: -9px;
 }
-
 
 .dialogsItems {
 padding: 10px;

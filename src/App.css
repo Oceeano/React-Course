@@ -39,7 +39,7 @@ ul li {
 .app-wrapper {
   margin: 0 auto;
   display: grid;
-  width: 1200px;
+  width: auto;
   height: 1fr;
 
   grid-template-areas:
@@ -50,7 +50,7 @@ ul li {
 
   grid-template-rows: 200px 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
+  grid-gap: 2%;
   position: relative;
 
 }

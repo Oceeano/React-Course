@@ -25,17 +25,17 @@
 
   width: 1fr;
   height: 100%;
-
+  text-align: center;
   overflow: auto;
 
 }
 
 .header__img {
   /* filter: none; */
-  width: 150px;
+  width: 10%;
   padding-top: 25px;
   vertical-align: middle;
-  text-align: center;
+ /* text-align: center;*/
   /*animation: spin infinite 20s linear;*/
 }
 
