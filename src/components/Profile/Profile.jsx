@@ -3,13 +3,14 @@ import s from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts'
 import ProfileInfo from "./ProfileInfo/ ProfileInfo";
 
-const Profile = () => {
+const Profile = (props) => {
     return <div>
         <div className={s.content_wall}>
-            <img className={s.content__image} src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbucket.mn2s.com%2Fwp-content%2Fuploads%2F2018%2F10%2F13144019%2Fsteven-seagal-mn2s.jpg&f=1&nofb=1"/>
+            <img className={s.content__image}
+                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbucket.mn2s.com%2Fwp-content%2Fuploads%2F2018%2F10%2F13144019%2Fsteven-seagal-mn2s.jpg&f=1&nofb=1"/>
         </div>
         <ProfileInfo/>
-        <MyPosts/>
+        <MyPosts posts={props.posts}/>
     </div>
         ;
 }
