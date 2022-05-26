@@ -1,12 +1,13 @@
 import React from "react";
 import s from './Navbar.module.css';
 import {NavLink} from "react-router-dom";
+import Friends from "../Friends/friends";
 
 //s = virtual styles object that pointed to special classNames in browsers for every jsx components//
 //{`${s.item} ${s.active}`}  - распределение стиля двум классам
 
 
-const Navbar = () => {
+const Navbar = (props) => {
     return <nav className={s.nav}>
         <div className={s.item}>
             <NavLink to="/profile" className={navData => navData.isActive ? s.active : s.item}>Profile</NavLink>
@@ -21,6 +22,9 @@ const Navbar = () => {
         </div>
         <div className={s.item}>
             <NavLink to="/settings" className={navData => navData.isActive ? s.active : s.item}>Settings</NavLink>
+        </div>
+        <div>
+            <Friends state={props.state.friends}/>
         </div>
     </nav >
 }
