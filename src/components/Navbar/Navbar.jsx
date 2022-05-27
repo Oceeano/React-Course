@@ -9,7 +9,7 @@ import Friends from "../Friends/friends";
 
 const Navbar = (props) => {
     return <nav className={s.nav}>
-        <div className={s.item}>
+       <div className={s.items}> <div className={s.item}>
             <NavLink to="/profile" className={navData => navData.isActive ? s.active : s.item}>Profile</NavLink>
             {/*className={navData => navData.isActive ? s.active : s.item} - new syntax from new react-dom version*/}
         </div>
@@ -23,7 +23,8 @@ const Navbar = (props) => {
         <div className={s.item}>
             <NavLink to="/settings" className={navData => navData.isActive ? s.active : s.item}>Settings</NavLink>
         </div>
-        <div>
+       </div>
+        <div className={s.friendsWrapper}>
             <Friends state={props.state.friends}/>
         </div>
     </nav >

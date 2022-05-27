@@ -50,7 +50,7 @@ ul li {
 
   grid-template-rows: 200px 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-gap: 2%;
+  grid-gap: 4%;
   position: relative;
 
 }
@@ -69,3 +69,6 @@ ul li {
 
 }
 
+Navbar {
+  border: antiquewhite dotted;
+}

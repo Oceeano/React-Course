@@ -1,21 +1,44 @@
+{
+    border: antiquewhite dotted
+;
+}
+
 .nav {
     grid-area: n;
     background-color: rgb(167, 167, 100);
     border-radius: 10px;
     padding: 10%;
     margin: 0 auto;
-    
-  }
+    border: antiquewhite dotted;
+    display: grid;
+    grid-template-areas: "n"
+    "f";
 
-  .item {
-      color: rgb(131, 226, 255);
-      text-decoration: none;
-  }
+grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+.item {
+    color: rgb(131, 226, 255);
+    text-decoration: none;
+
+}
 
 .item a.activeLink {
     color: gold;
 
 }
+
+.items {
+    grid-area: n;
+    border: antiquewhite dotted;
+}
+
+.friendsWrapper {
+    grid-area: f;
+    border: antiquewhite dotted;
+}
+
 .active {
     color: gold;
     text-decoration: none;

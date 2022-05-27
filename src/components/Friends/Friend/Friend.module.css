@@ -1,0 +1,10 @@
+.friendWrapper {
+    text-align: center;
+    margin: auto 0;
+}
+
+.friendAva {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+}
