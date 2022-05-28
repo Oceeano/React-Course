@@ -1,6 +1,7 @@
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
+    grid-template-rows: max-content 1fr;
     background-color: bisque;
     padding: 10px;
     border-radius: 10px;
@@ -33,3 +34,11 @@
     color: brown;
     text-decoration: none;
 }
+
+.addMessage {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr max-content;
+    grid-column: 1 / 4;
+}
+
